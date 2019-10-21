@@ -30,46 +30,46 @@ authorization, attacks), and sizing (e.g. support costs, optimization) requireme
 
 ### Design an Auditing and Monitoring Strategy
 
-+[define logical groupings (tags) for resources to be monitored]()
-+[determine levels and storage locations for logs]()
-+[plan for integration with monitoring tools]()
-+[recommend appropriate monitoring tool(s) for a solution]()
-+[specify mechanism for event routing and escalation]()
-+[design auditing for compliance requirements]()
-+[design auditing policies and traceability requirements]()
++ [define logical groupings (tags) for resources to be monitored]()
++ [determine levels and storage locations for logs]()
++ [plan for integration with monitoring tools]()
++ [recommend appropriate monitoring tool(s) for a solution]()
++ [specify mechanism for event routing and escalation]()
++ [design auditing for compliance requirements]()
++ [design auditing policies and traceability requirements]()
 
 ## Design for identity and security (20-25%)
 
 ### Design Identity Management
-+[choose an identity management approach]()
-+[design an identity delegation strategy, identity repository (including directory,
++ [choose an identity management approach]()
++ [design an identity delegation strategy, identity repository (including directory,
 application, systems, etc.]()
-+[design self-service identity management and user and persona provisioning]()
-+[define personas and roles]()
-+[recommend appropriate access control strategy (e.g., attribute-based, discretionary
++ [design self-service identity management and user and persona provisioning]()
++ [define personas and roles]()
++ [recommend appropriate access control strategy (e.g., attribute-based, discretionary
 access, history-based, identity-based, mandatory, organization-based, role-based, rulebased, responsibility-based)]()
 
 ### Design Authentication
-+[choose an authentication approach]()
-+[design a single-sign on approach]()
-+[design for IPSec, logon, multi-factor, network access, and remote authentication]()
++ [choose an authentication approach]()
++ [design a single-sign on approach]()
++ [design for IPSec, logon, multi-factor, network access, and remote authentication]()
 
 ### Design Authorization
-+[choose an authorization approach]()
-+[define access permissions and privileges]()
-+[design secure delegated access (e.g., oAuth, OpenID, etc.)]()
-+[recommend when and how to use API Keys]()
++ [choose an authorization approach]()
++ [define access permissions and privileges]()
++ [design secure delegated access (e.g., oAuth, OpenID, etc.)]()
++ [recommend when and how to use API Keys]()
 
 ### Design for Risk Prevention for Identity
-+[design a risk assessment strategy (e.g., access reviews, RBAC policies, physical access)]()
-+[evaluate agreements involving services or products from vendors and contractors]()
-+[update solution design to address and mitigate changes to existing security policies,
++ [design a risk assessment strategy (e.g., access reviews, RBAC policies, physical access)]()
++ [evaluate agreements involving services or products from vendors and contractors]()
++ [update solution design to address and mitigate changes to existing security policies,
 standards, guidelines and procedures]()
 
 ### Design a Monitoring Strategy for Identity and Security
-+[design for alert notifications]()
-+[design an alert and metrics strategy]()
-+[recommend authentication monitors]()
++ [design for alert notifications]()
++ [design an alert and metrics strategy]()
++ [recommend authentication monitors]()
 
 ## Design a data platform solution (15-20%)
 
