@@ -1,7 +1,7 @@
 # AZ301
 ## AZ-301 Study Guide and Materials for Exam
 
-Skills measured:
+#### Skills measured:
 
 + [Determine workload requirements](#determine-workload-requirements-10-15)
 + [Design for identity and security](#design-for-identity-and-security-20-25)
@@ -12,7 +12,7 @@ Skills measured:
 
 ## Determine workload requirements (10-15%)
 
-### Gather Information and Requirements
+#### Gather Information and Requirements
 + [identify compliance requirements, identity and access management infrastructure, and
 service-oriented architectures (e.g., integration patterns, service design, service
 discoverability]()
@@ -25,10 +25,10 @@ authorization, attacks), and sizing (e.g. support costs, optimization) requireme
 + [evaluate products and services to align with solution]()
 + [create testing scenarios]()
 
-### Optimize Consumption Strategy
+#### Optimize Consumption Strategy
 +[optimize app service, compute, identity, network, and storage costs]()
 
-### Design an Auditing and Monitoring Strategy
+#### Design an Auditing and Monitoring Strategy
 
 + [define logical groupings (tags) for resources to be monitored]()
 + [determine levels and storage locations for logs]()
@@ -40,7 +40,7 @@ authorization, attacks), and sizing (e.g. support costs, optimization) requireme
 
 ## Design for identity and security (20-25%)
 
-### Design Identity Management
+#### Design Identity Management
 + [choose an identity management approach]()
 + [design an identity delegation strategy, identity repository (including directory,
 application, systems, etc.]()
@@ -49,29 +49,57 @@ application, systems, etc.]()
 + [recommend appropriate access control strategy (e.g., attribute-based, discretionary
 access, history-based, identity-based, mandatory, organization-based, role-based, rulebased, responsibility-based)]()
 
-### Design Authentication
+#### Design Authentication
 + [choose an authentication approach]()
 + [design a single-sign on approach]()
 + [design for IPSec, logon, multi-factor, network access, and remote authentication]()
 
-### Design Authorization
+#### Design Authorization
 + [choose an authorization approach]()
 + [define access permissions and privileges]()
 + [design secure delegated access (e.g., oAuth, OpenID, etc.)]()
 + [recommend when and how to use API Keys]()
 
-### Design for Risk Prevention for Identity
+#### Design for Risk Prevention for Identity
 + [design a risk assessment strategy (e.g., access reviews, RBAC policies, physical access)]()
 + [evaluate agreements involving services or products from vendors and contractors]()
 + [update solution design to address and mitigate changes to existing security policies,
 standards, guidelines and procedures]()
 
-### Design a Monitoring Strategy for Identity and Security
+#### Design a Monitoring Strategy for Identity and Security
 + [design for alert notifications]()
 + [design an alert and metrics strategy]()
 + [recommend authentication monitors]()
 
 ## Design a data platform solution (15-20%)
+
+#### Design a Data Management Strategy
++ [choose between managed and unmanaged data store]()
++ [choose between relational and non-relational databases]()
++ [design data auditing and caching strategies]()
++ [identify data attributes (e.g., relevancy, structure, frequency, size, durability, etc.)]()
++ [recommend Database Transaction Unit (DTU) sizing]()
++ [design a data retention policy]()
++ [design for data availability, consistency, and durability]()
++ [design a data warehouse strategy]()
+
+#### Design a Data Protection Strategy
++ [recommend geographic data storage]()
++ [design an encryption strategy for data at rest, for data in transmission, and for data in
+use]()
++ [design a scalability strategy for data]()
++ [design secure access to data]()
++ [design a data loss prevention (DLP) policy]()
+
+#### Design and Document Data Flows
++ [identify data flow requirements]()
++ [create a data flow diagram]()
++ [design a data flow to meet business requirements]()
++ [design a data import and export strategy]()
+
+#### Design a Monitoring Strategy for the Data Platform
++ [design for alert notifications]()
++ [design an alert and metrics strategy]()
 
 ## Design a business continuity strategy (15-20%)
 
