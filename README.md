@@ -13,7 +13,7 @@ Skills measured:
 ## Determine workload requirements (10-15%)
 
 ### Gather Information and Requirements
-+[identify compliance requirements, identity and access management infrastructure, and
++ [identify compliance requirements, identity and access management infrastructure, and
 service-oriented architectures (e.g., integration patterns, service design, service
 discoverability]()
 + [identify accessibility (e.g. Web Content Accessibility Guidelines), availability (e.g. Service
