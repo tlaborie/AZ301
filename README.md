@@ -59,13 +59,16 @@ authorization, attacks), and sizing (e.g. support costs, optimization) requireme
 ## Design for identity and security (20-25%)
 
 #### Design Identity Management
-+ [choose an identity management approach]()
++ [choose an identity management approach](https://docs.microsoft.com/en-us/azure/security/fundamentals/identity-management-overview)
 + [design an identity delegation strategy, identity repository (including directory,
-application, systems, etc.]()
+application, systems, etc.](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/when-to-use-identity-delegation)
 + [design self-service identity management and user and persona provisioning]()
 + [define personas and roles]()
 + [recommend appropriate access control strategy (e.g., attribute-based, discretionary
 access, history-based, identity-based, mandatory, organization-based, role-based, rulebased, responsibility-based)]()
+
+##### External Resources
++ [Pluralsight - Design Identity Management in Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-identity-management-design)
 
 #### Design Authentication
 + [choose an authentication approach]()
