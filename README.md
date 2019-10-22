@@ -138,8 +138,8 @@ and service deployment strategy]()
 + [design data import/export strategies during migration]()
 + [determine the appropriate application migration, data transfer, and network connectivity
 method]()
-+ [determine migration scope, including redundant, related, trivial, and outdated data]
-+ [determine application and data compatibility]
++ [determine migration scope, including redundant, related, trivial, and outdated data]()
++ [determine application and data compatibility]()
 
 #### Design an API Integration Strategy
 + [design an API gateway strategy]()
@@ -147,3 +147,28 @@ method]()
 + [recommend a hosting structure for API management]()
 
 ## Design an infrastructure strategy (15-20%)
+
+#### Design a Storage Strategy
++ [design a storage provisioning strategy]()
++ [design storage access strategy]()
++ [identify storage requirements]()
++ [recommend a storage solution and storage management tools]
+
+#### Design a Compute Strategy
++ [design compute provisioning and secure compute strategies]()
++ [determine appropriate compute technologies (e.g., virtual machines, functions, service
+fabric, container instances, etc.)]()
++ [design an Azure HPC environment]()
++ [identify compute requirements]()
++ [recommend management tools for compute]()
+
+#### Design a Networking Strategy
++ [design network provisioning and network security strategies]()
++ [determine appropriate network connectivity technologies]()
++ [identify networking requirements]()
++ [recommend network management tools]()
+
+#### Design a Monitoring Strategy for Infrastructure
++ [design for alert notifications]()
++ [design an alert and metrics strategy]()
+
