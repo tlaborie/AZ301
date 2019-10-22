@@ -103,6 +103,47 @@ use]()
 
 ## Design a business continuity strategy (15-20%)
 
+#### Design a Site Recovery Strategy
++ [design a recovery solution]()
++ [design a site recovery replication policy]()
++ [design for site recovery capacity and for storage replication]()
++ [design site failover and failback (planned/unplanned)]()
++ [design the site recovery network]()
++ [recommend recovery objectives (e.g., Azure, on-prem, hybrid, Recovery Time Objective
+(RTO), Recovery Level Objective (RLO), Recovery Point Objective (RPO))]()
++ [identify resources that require site recovery]()
++ [identify supported and unsupported workloads]()
++ [recommend a geographical distribution strategy]()
+
+#### Design for High Availability
++ [design for application redundancy, autoscaling, data center and fault domain
+redundancy, and network redundancy]()
++ [identify resources that require high availability]()
++ [identify storage types for high availability]()
+
+#### Design a Data Archiving Strategy
++ [recommend storage types and methodology for data archiving]()
++ [identify requirements for data archiving and business compliance requirements for data
+archiving]()
++ [identify SLA(s) for data archiving]()
+
 ## Design for deployment, migration, and integration (10-15%)
+
+#### Design Deployments
++ [design a compute, container, data platform, messaging solution, storage, and web app
+and service deployment strategy]()
+
+#### Design Migrations
++ [recommend a migration strategy]()
++ [design data import/export strategies during migration]()
++ [determine the appropriate application migration, data transfer, and network connectivity
+method]()
++ [determine migration scope, including redundant, related, trivial, and outdated data]
++ [determine application and data compatibility]
+
+#### Design an API Integration Strategy
++ [design an API gateway strategy]()
++ [determine policies for internal and external consumption of APIs]()
++ [recommend a hosting structure for API management]()
 
 ## Design an infrastructure strategy (15-20%)
