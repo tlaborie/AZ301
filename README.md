@@ -18,17 +18,16 @@
 
 #### Gather Information and Requirements
 
-+ identify [compliance requirements](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-readiness-guide/govern-org-compliance?tabs=AzureBlueprints), [identity]((https://docs.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices)) and [access management infrastructure](https://docs.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices), and
-service-oriented architectures (e.g., [integration patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/), [service design](https://docs.microsoft.com/en-us/azure/architecture/), [service
++ identify [compliance requirements](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-readiness-guide/govern-org-compliance?tabs=AzureBlueprints), [identity](https://docs.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices) and [access management infrastructure](https://docs.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices), and
+[service-oriented architectures](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/service-oriented-architecture) (e.g., [integration patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/), [service design](https://docs.microsoft.com/en-us/azure/architecture/), [service
 discoverability](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/microservices-addressability-service-registry)
-+ identify accessibility (e.g. Web Content Accessibility Guidelines), availability (e.g. Service
-Level Agreement), capacity planning and scalability, deploy-ability (e.g., repositories,
-failback, slot-based deployment), configurability, governance, maintainability (e.g.
++ identify accessibility (e.g. [Web Content Accessibility Guidelines](https://www.microsoft.com/en-us/trustcenter/compliance/compliance-offerings/wcag)), availability (e.g. [Service Level Agreement](https://azure.microsoft.com/en-us/support/legal/sla/summary/)), capacity planning and scalability, deploy-ability (e.g., repositories,
+failback, slot-based deployment), configurability, [governance](https://docs.microsoft.com/en-us/azure/governance/azure-management), maintainability (e.g.
 logging, debugging, troubleshooting, recovery, training), security (e.g. authentication,
 authorization, attacks), and sizing (e.g. support costs, optimization) requirements
 + [recommend changes during project execution (ongoing)]()
 + [evaluate products and services to align with solution]()
-+ [create testing scenarios]()
++ [create testing scenarios](https://azure.microsoft.com/en-us/solutions/dev-test/#references/)
 
 ##### External Resources: 
 + [Pluralsight - Gathering Information About Existing Enterprise Architecture in Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-enterprise-architecture-information-gathering)
@@ -36,17 +35,26 @@ authorization, attacks), and sizing (e.g. support costs, optimization) requireme
 + [Pluralsight - Determining Feasibility and Refining Requirements for Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-feasibility-determining-requirements-refining)
 
 #### Optimize Consumption Strategy
-+[optimize app service, compute, identity, network, and storage costs]()
++ [optimize app service, compute, identity, network, and storage costs](https://docs.microsoft.com/en-us/azure/cost-management/)
+
+##### External Resources
++ [Pluralsight - Estimating One-time and Recurring Costs for Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-one-time-costs-estimating-recurring)
++ [Pluralsight- Optimizing Consumption Strategy in Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-consumption-strategy-optimizing)
 
 #### Design an Auditing and Monitoring Strategy
 
-+ [define logical groupings (tags) for resources to be monitored]()
-+ [determine levels and storage locations for logs]()
-+ [plan for integration with monitoring tools]()
-+ [recommend appropriate monitoring tool(s) for a solution]()
-+ [specify mechanism for event routing and escalation]()
-+ [design auditing for compliance requirements]()
-+ [design auditing policies and traceability requirements]()
++ [define logical groupings (tags) for resources to be monitored](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags)
++ [determine levels and storage locations for logs](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/resource-logs-overview)
++ [plan for integration with monitoring tools](https://azure.microsoft.com/en-us/blog/use-azure-monitor-to-integrate-with-siem-tools/)
++ [recommend appropriate monitoring tool(s) for a solution](https://docs.microsoft.com/en-us/azure/azure-monitor/overview) ([additional tools]https://docs.microsoft.com/en-us/azure/azure-monitor/insights/solutions)
++ [specify mechanism for event routing and escalation](https://docs.microsoft.com/en-us/azure/event-grid/overview)
++ [design auditing for compliance requirements](https://docs.microsoft.com/en-us/azure/security/fundamentals/log-audit)
++ [design auditing policies and traceability requirements](https://docs.microsoft.com/en-us/azure/security/fundamentals/log-audit)
+
+##### External Resources
+
++ [Pluralsight - Designing a Monitoring Strategy for a Solution in Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-monitoring-strategy-solution-designing)
++ [Pluralsight - Design Auditing for Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-auditing-design)
 
 ## Design for identity and security (20-25%)
 
