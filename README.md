@@ -10,20 +10,30 @@
 + [Design for deployment, migration, and integration](#design-for-deployment-migration-and-integration-10-15)
 + [Design an infrastructure strategy](#design-an-infrastructure-strategy-15-20)
 
+#### External Resources
+
+ + [Pluralsight - Learning Path - Microsoft Azure Architect Design (AZ-301)](https://www.pluralsight.com/paths/microsoft-azure-architect-design-az-301)
+
 ## Determine workload requirements (10-15%)
 
 #### Gather Information and Requirements
-+ [identify compliance requirements, identity and access management infrastructure, and
-service-oriented architectures (e.g., integration patterns, service design, service
-discoverability]()
-+ [identify accessibility (e.g. Web Content Accessibility Guidelines), availability (e.g. Service
+
++ identify [compliance requirements](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-readiness-guide/govern-org-compliance?tabs=AzureBlueprints), [identity]((https://docs.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices)) and [access management infrastructure](https://docs.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices), and
+service-oriented architectures (e.g., [integration patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/), [service design](https://docs.microsoft.com/en-us/azure/architecture/), [service
+discoverability](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/microservices-addressability-service-registry)
++ identify accessibility (e.g. Web Content Accessibility Guidelines), availability (e.g. Service
 Level Agreement), capacity planning and scalability, deploy-ability (e.g., repositories,
 failback, slot-based deployment), configurability, governance, maintainability (e.g.
 logging, debugging, troubleshooting, recovery, training), security (e.g. authentication,
-authorization, attacks), and sizing (e.g. support costs, optimization) requirements]()
+authorization, attacks), and sizing (e.g. support costs, optimization) requirements
 + [recommend changes during project execution (ongoing)]()
 + [evaluate products and services to align with solution]()
 + [create testing scenarios]()
+
+##### External Resources: 
++ [Pluralsight - Gathering Information About Existing Enterprise Architecture in Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-enterprise-architecture-information-gathering)
++ [Pluralsight - Gathering Non-functional Requirements for Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-non-functional-requirements-gathering/table-of-contents)
++ [Pluralsight - Determining Feasibility and Refining Requirements for Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-feasibility-determining-requirements-refining)
 
 #### Optimize Consumption Strategy
 +[optimize app service, compute, identity, network, and storage costs]()
