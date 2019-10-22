@@ -152,7 +152,7 @@ method]()
 + [design a storage provisioning strategy]()
 + [design storage access strategy]()
 + [identify storage requirements]()
-+ [recommend a storage solution and storage management tools]
++ [recommend a storage solution and storage management tools]()
 
 #### Design a Compute Strategy
 + [design compute provisioning and secure compute strategies]()
