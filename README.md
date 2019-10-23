@@ -62,35 +62,50 @@ authorization, attacks), and sizing (e.g. support costs, optimization) requireme
 + [choose an identity management approach](https://docs.microsoft.com/en-us/azure/security/fundamentals/identity-management-overview)
 + [design an identity delegation strategy, identity repository (including directory,
 application, systems, etc.](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/when-to-use-identity-delegation)
-+ [design self-service identity management and user and persona provisioning]()
-+ [define personas and roles]()
++ [design self-service identity management and user and persona provisioning](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/methods-for-assigning-users-and-groups)
++ [define personas and roles](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/)
 + [recommend appropriate access control strategy (e.g., attribute-based, discretionary
-access, history-based, identity-based, mandatory, organization-based, role-based, rulebased, responsibility-based)]()
+access, history-based, identity-based, mandatory, organization-based, role-based, rulebased, responsibility-based)](https://docs.microsoft.com/en-us/azure/security/fundamentals/identity-management-best-practices)
 
 ##### External Resources
 + [Pluralsight - Design Identity Management in Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-identity-management-design)
 
 #### Design Authentication
-+ [choose an authentication approach]()
-+ [design a single-sign on approach]()
-+ [design for IPSec, logon, multi-factor, network access, and remote authentication]()
++ [choose an authentication approach](https://docs.microsoft.com/en-us/azure/security/fundamentals/choose-ad-authn)
++ [design a single-sign on approach](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-single-sign-on)
++ [design for IPSec, logon, multi-factor, network access, and remote authentication](https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-scenarios)
+
+##### External Resources
++ [Pluralsight - Design Authentication for Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-authentication-design)
 
 #### Design Authorization
 + [choose an authorization approach]()
 + [define access permissions and privileges]()
-+ [design secure delegated access (e.g., oAuth, OpenID, etc.)]()
-+ [recommend when and how to use API Keys]()
++ design secure delegated access (e.g., oAuth, OpenID, etc.)
+  + (https://docs.microsoft.com/en-us/azure/active-directory/develop/developer-glossary#permissions)
+  + (https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-protocols-oauth-code)
+  + (https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-protocols-oauth-code)
++ [recommend when and how to use API Keys](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad)
+
+##### External Resources
++ [Pluralsight - Design Authorization for Microsoft Azure ](https://app.pluralsight.com/library/courses/microsoft-azure-authorization-design)
 
 #### Design for Risk Prevention for Identity
-+ [design a risk assessment strategy (e.g., access reviews, RBAC policies, physical access)]()
-+ [evaluate agreements involving services or products from vendors and contractors]()
-+ [update solution design to address and mitigate changes to existing security policies,
-standards, guidelines and procedures]()
++ design a risk assessment strategy (e.g., [access reviews](https://docs.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview), [RBAC policies, physical access](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/concept-risk-events))
++ evaluate agreements involving services or products from vendors and contractors
++ update solution design to address and mitigate changes to existing security policies,
+standards, guidelines and procedures
+
+##### External Resources
++ [Pluralsight - Design for Risk Prevention in Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-risk-prevention-design)
 
 #### Design a Monitoring Strategy for Identity and Security
-+ [design for alert notifications]()
-+ [design an alert and metrics strategy]()
-+ [recommend authentication monitors]()
++ [design for alert notifications](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-overview)
++ [design an alert and metrics strategy](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-metric)
++ [recommend authentication monitors](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/overview-monitoring)
+
+ ##### External Resources 
+ +[Pluralsight - Design a Monitoring Strategy for Identity and Security in Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-monitoring-strategy-identity-security-design)
 
 ## Design a data platform solution (15-20%)
 
