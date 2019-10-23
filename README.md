@@ -175,29 +175,41 @@ redundancy, and network redundancy](https://docs.microsoft.com/en-us/azure/archi
 + [Pluralsight - Designing for High Availability on Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-high-availability-designing)
 
 #### Design a Data Archiving Strategy
-+ [recommend storage types and methodology for data archiving]()
++ [recommend storage types and methodology for data archiving](https://azure.microsoft.com/en-us/services/storage/archive/)
 + [identify requirements for data archiving and business compliance requirements for data
-archiving]()
-+ [identify SLA(s) for data archiving]()
+archiving](https://docs.microsoft.com/en-us/azure/storage/common/storage-compliance-offerings)
++ [identify SLA(s) for data archiving](https://azure.microsoft.com/en-us/support/legal/sla/storage/v1_5/)
+
+##### External Resources
++ [Pluralsight - Designing a Data Archiving Strategy on Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-data-archiving-strategy-designing)
 
 ## Design for deployment, migration, and integration (10-15%)
 
 #### Design Deployments
 + [design a compute, container, data platform, messaging solution, storage, and web app
-and service deployment strategy]()
+and service deployment strategy](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/)
+
+##### External Resources
+[Pluralsight - Designing Deployments in Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-deployments-designing)
 
 #### Design Migrations
-+ [recommend a migration strategy]()
-+ [design data import/export strategies during migration]()
++ [recommend a migration strategy](https://azure.microsoft.com/en-us/migration/migration-journey/#migrate)
++ [design data import/export strategies during migration](https://azure.microsoft.com/en-us/services/database-migration/)
 + [determine the appropriate application migration, data transfer, and network connectivity
-method]()
+method](https://azure.microsoft.com/en-us/migration/migration-journey/#migrate)
 + [determine migration scope, including redundant, related, trivial, and outdated data]()
 + [determine application and data compatibility]()
 
+##### External Resources 
++ [Pluralsight - Designing Migrations for Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-migrations-designing)
+
 #### Design an API Integration Strategy
-+ [design an API gateway strategy]()
-+ [determine policies for internal and external consumption of APIs]()
-+ [recommend a hosting structure for API management]()
++ [design an API gateway strategy](https://docs.microsoft.com/en-us/azure/architecture/microservices/design/gateway)
++ [determine policies for internal and external consumption of APIs](https://docs.microsoft.com/en-us/azure/api-management/api-management-policies)
++ [recommend a hosting structure for API management](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts)
+
+##### External Resources 
++ [Pluralsight - Designing an API Management Strategy for Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-api-management-strategy-designing/table-of-contents)
 
 ## Design an infrastructure strategy (15-20%)
 
