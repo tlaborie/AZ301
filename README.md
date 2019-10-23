@@ -111,7 +111,7 @@ standards, guidelines and procedures
 
 #### Design a Data Management Strategy
 + [choose between managed and unmanaged data store]()
-+ [choose between relational and non-relational databases]()
++ [choose between relational and non-relational databases](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview)
 + [design data auditing and caching strategies]()
 + [identify data attributes (e.g., relevancy, structure, frequency, size, durability, etc.)]()
 + [recommend Database Transaction Unit (DTU) sizing]()
