@@ -214,10 +214,13 @@ method](https://azure.microsoft.com/en-us/migration/migration-journey/#migrate)
 ## Design an infrastructure strategy (15-20%)
 
 #### Design a Storage Strategy
-+ [design a storage provisioning strategy]()
-+ [design storage access strategy]()
-+ [identify storage requirements]()
-+ [recommend a storage solution and storage management tools]()
++ [design a storage provisioning strategy](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction)
++ [design storage access strategy](https://docs.microsoft.com/en-us/azure/storage/common/storage-decide-blobs-files-disks)
++ [identify storage requirements](https://docs.microsoft.com/en-us/azure/storage/common/storage-decide-blobs-files-disks)
++ [recommend a storage solution and storage management tools](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer)
+
+##### External Resources
++ [Pluralsight - Design a Storage Strategy for Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-storage-strategy-design)
 
 #### Design a Compute Strategy
 + [design compute provisioning and secure compute strategies]()
