@@ -112,50 +112,67 @@ standards, guidelines and procedures
 #### Design a Data Management Strategy
 + [choose between managed and unmanaged data store]()
 + [choose between relational and non-relational databases](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview)
-+ [design data auditing and caching strategies]()
++ [design data auditing and caching strategies](https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching)
 + [identify data attributes (e.g., relevancy, structure, frequency, size, durability, etc.)]()
-+ [recommend Database Transaction Unit (DTU) sizing]()
-+ [design a data retention policy]()
++ [recommend Database Transaction Unit (DTU) sizing](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers-dtu)
++ [design a data retention policy](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-long-term-retention)
 + [design for data availability, consistency, and durability]()
-+ [design a data warehouse strategy]()
++ [design a data warehouse strategy](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
+
+##### External Resources
++ [Pluralsight - Design a Data Management Strategy for Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-data-management-strategy-design)
++ [Pluralsight - Plan for Data Warehousing with Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-data-warehousing-plan)
 
 #### Design a Data Protection Strategy
-+ [recommend geographic data storage]()
++ [recommend geographic data storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy)
 + [design an encryption strategy for data at rest, for data in transmission, and for data in
-use]()
-+ [design a scalability strategy for data]()
-+ [design secure access to data]()
-+ [design a data loss prevention (DLP) policy]()
+use](https://docs.microsoft.com/en-us/azure/security/fundamentals/encryption-overview)
++ [design a scalability strategy for data](https://docs.microsoft.com/en-us/azure/architecture/checklist/scalability)
++ [design secure access to data](https://docs.microsoft.com/en-us/azure/security/fundamentals/data-encryption-best-practices)
++ [design a data loss prevention (DLP) policy](https://docs.microsoft.com/en-us/flow/prevent-data-loss)
+
+##### External Resources
++ [Pluralsight - Design a Data Protection Strategy with Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-data-protection-strategy-design)
 
 #### Design and Document Data Flows
-+ [identify data flow requirements]()
-+ [create a data flow diagram]()
-+ [design a data flow to meet business requirements]()
-+ [design a data import and export strategy]()
++ [identify data flow requirements](https://docs.microsoft.com/en-us/azure/data-factory/concepts-data-flow-overview)
++ [create a data flow diagram](https://docs.microsoft.com/en-us/azure/data-factory/data-flow-create)
++ [design a data flow to meet business requirements](https://docs.microsoft.com/en-us/azure/data-factory/concepts-data-flow-schema-drift)
++ [design a data import and export strategy](https://docs.microsoft.com/en-us/azure/storage/common/storage-import-export-service)
+
+##### External Resources
++ [Pluralsight - Design and Document Data Flows with Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-data-flows-document-design)
 
 #### Design a Monitoring Strategy for the Data Platform
-+ [design for alert notifications]()
-+ [design an alert and metrics strategy]()
++ [design for alert notifications](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-overview)
++ [design an alert and metrics strategy](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources#options-for-data-consumption)
+
 
 ## Design a business continuity strategy (15-20%)
 
 #### Design a Site Recovery Strategy
-+ [design a recovery solution]()
-+ [design a site recovery replication policy]()
-+ [design for site recovery capacity and for storage replication]()
-+ [design site failover and failback (planned/unplanned)]()
-+ [design the site recovery network]()
++ [design a recovery solution](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-overview)
++ [design a site recovery replication policy](https://docs.microsoft.com/en-us/azure/site-recovery/vmware-azure-set-up-replication)
++ [design for site recovery capacity and for storage replication](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-plan-capacity-vmware)
++ [design site failover and failback (planned/unplanned)](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-failover)
++ [design the site recovery network](https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-about-networking)
 + [recommend recovery objectives (e.g., Azure, on-prem, hybrid, Recovery Time Objective
-(RTO), Recovery Level Objective (RLO), Recovery Point Objective (RPO))]()
-+ [identify resources that require site recovery]()
-+ [identify supported and unsupported workloads]()
+(RTO), Recovery Level Objective (RLO), Recovery Point Objective (RPO))](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-overview)
++ [identify resources that require site recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-workload)
++ [identify supported and unsupported workloads](https://docs.microsoft.com/en-us/azure/site-recovery/vmware-physical-azure-support-matrix)
 + [recommend a geographical distribution strategy]()
 
+##### External Resources
++ [Designing a Site Recovery Strategy on Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-site-recovery-strategy-designing)
+
 #### Design for High Availability
-+ [design for application redundancy, autoscaling, data center and fault domain
-redundancy, and network redundancy]()
-+ [identify resources that require high availability]()
-+ [identify storage types for high availability]()
++ design for [application redundancy](https://docs.microsoft.com/en-us/azure/architecture/reliability/), [autoscaling](https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling), [data center and fault domain
+redundancy, and network redundancy](https://docs.microsoft.com/en-us/azure/architecture/reliability/)
++ [identify resources that require high availability](https://docs.microsoft.com/en-us/azure/architecture/checklist/resiliency-per-service)
++ [identify storage types for high availability](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers)
+
+##### External Resources
++ [Pluralsight - Designing for High Availability on Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-high-availability-designing)
 
 #### Design a Data Archiving Strategy
 + [recommend storage types and methodology for data archiving]()
