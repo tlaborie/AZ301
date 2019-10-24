@@ -1,4 +1,4 @@
-# AZ301
+0000# AZ301
 ## AZ-301 Study Guide and Materials for Exam
 
 #### Skills measured:
@@ -25,8 +25,8 @@ discoverability](https://docs.microsoft.com/en-us/dotnet/architecture/microservi
 failback, slot-based deployment), configurability, [governance](https://docs.microsoft.com/en-us/azure/governance/azure-management), maintainability (e.g.
 logging, debugging, troubleshooting, recovery, training), security (e.g. authentication,
 authorization, attacks), and sizing (e.g. support costs, optimization) requirements
-+ [recommend changes during project execution (ongoing)]()
-+ [evaluate products and services to align with solution]()
++ recommend changes during project execution (ongoing)
++ evaluate products and services to align with solution
 + [create testing scenarios](https://azure.microsoft.com/en-us/solutions/dev-test/#references/)
 
 ##### External Resources: 
@@ -79,8 +79,8 @@ access, history-based, identity-based, mandatory, organization-based, role-based
 + [Pluralsight - Design Authentication for Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-authentication-design)
 
 #### Design Authorization
-+ [choose an authorization approach]()
-+ [define access permissions and privileges]()
++ choose an authorization approach
++ define access permissions and privileges
 + design secure delegated access (e.g., oAuth, OpenID, etc.)
   + (https://docs.microsoft.com/en-us/azure/active-directory/develop/developer-glossary#permissions)
   + (https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-protocols-oauth-code)
@@ -110,13 +110,13 @@ standards, guidelines and procedures
 ## Design a data platform solution (15-20%)
 
 #### Design a Data Management Strategy
-+ [choose between managed and unmanaged data store]()
++ choose between managed and unmanaged data store
 + [choose between relational and non-relational databases](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview)
 + [design data auditing and caching strategies](https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching)
 + [identify data attributes (e.g., relevancy, structure, frequency, size, durability, etc.)]()
 + [recommend Database Transaction Unit (DTU) sizing](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-service-tiers-dtu)
 + [design a data retention policy](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-long-term-retention)
-+ [design for data availability, consistency, and durability]()
++ design for data availability, consistency, and durability
 + [design a data warehouse strategy](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is)
 
 ##### External Resources
@@ -160,7 +160,7 @@ use](https://docs.microsoft.com/en-us/azure/security/fundamentals/encryption-ove
 (RTO), Recovery Level Objective (RLO), Recovery Point Objective (RPO))](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-overview)
 + [identify resources that require site recovery](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-workload)
 + [identify supported and unsupported workloads](https://docs.microsoft.com/en-us/azure/site-recovery/vmware-physical-azure-support-matrix)
-+ [recommend a geographical distribution strategy]()
++ recommend a geographical distribution strategy
 
 ##### External Resources
 + [Designing a Site Recovery Strategy on Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-site-recovery-strategy-designing)
@@ -198,7 +198,7 @@ and service deployment strategy](https://docs.microsoft.com/en-us/azure/architec
 + [determine the appropriate application migration, data transfer, and network connectivity
 method](https://azure.microsoft.com/en-us/migration/migration-journey/#migrate)
 + [determine migration scope, including redundant, related, trivial, and outdated data]()
-+ [determine application and data compatibility]()
++ determine application and data compatibility
 
 ##### External Resources 
 + [Pluralsight - Designing Migrations for Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-migrations-designing)
