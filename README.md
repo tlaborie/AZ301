@@ -84,7 +84,6 @@ access, history-based, identity-based, mandatory, organization-based, role-based
 + design secure delegated access (e.g., oAuth, OpenID, etc.)
   + (https://docs.microsoft.com/en-us/azure/active-directory/develop/developer-glossary#permissions)
   + (https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-protocols-oauth-code)
-  + (https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-protocols-oauth-code)
 + [recommend when and how to use API Keys](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad)
 
 ##### External Resources
