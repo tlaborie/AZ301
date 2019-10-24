@@ -223,20 +223,29 @@ method](https://azure.microsoft.com/en-us/migration/migration-journey/#migrate)
 + [Pluralsight - Design a Storage Strategy for Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-storage-strategy-design)
 
 #### Design a Compute Strategy
-+ [design compute provisioning and secure compute strategies]()
++ [design compute provisioning and secure compute strategies](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-overview)
 + [determine appropriate compute technologies (e.g., virtual machines, functions, service
-fabric, container instances, etc.)]()
-+ [design an Azure HPC environment]()
-+ [identify compute requirements]()
-+ [recommend management tools for compute]()
+fabric, container instances, etc.)](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree)
++ [design an Azure HPC environment](https://azure.microsoft.com/en-us/solutions/big-compute/)
++ [identify compute requirements](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-comparison)
++ [recommend management tools for compute](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/azure-server-management/tools-services)
+
+##### External Resources
++ [Pluralsight - Design a Compute Strategy for Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-compute-strategy-design)
 
 #### Design a Networking Strategy
-+ [design network provisioning and network security strategies]()
-+ [determine appropriate network connectivity technologies]()
-+ [identify networking requirements]()
-+ [recommend network management tools]()
++ [design network provisioning and network security strategies](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/network-decisions)
++ [determine appropriate network connectivity technologies](https://azure.microsoft.com/en-us/product-categories/networking/)
++ [identify networking requirements](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-networking-for-enterprise-architects)
++ [recommend network management tools](https://docs.microsoft.com/en-us/azure/network-watcher/)
+
+##### External Resources 
++ [Pluralsight - Design a Networking Strategy for Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-networking-strategy-design)
 
 #### Design a Monitoring Strategy for Infrastructure
-+ [design for alert notifications]()
-+ [design an alert and metrics strategy]()
++ [design for alert notifications](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-overview)
++ [design an alert and metrics strategy](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-platform)
+
+##### External Resources 
++ [Pluralsight - Design a Monitoring Strategy for Infrastructure in Microsoft Azure](https://app.pluralsight.com/library/courses/microsoft-azure-monitoring-strategy-infrastructure-design)
 
